@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+header{
+    text-align: right;
+    background-color: antiquewhite;
+    height: 55px;
+    line-height: 55px;
+}
+footer{
+    background-color: antiquewhite;
+    height: 55px;
+}
+
+header div{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+button{
+    background-color: rgb(252, 229, 199);
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid;
+    color: rgb(2, 78, 88);
+}
+
+main{
+    height: calc(100vh - 55px - 55px);
+    overflow: auto;
+    background-color: #fed3ce;
+}
+
+
+
+/*mai*/
+.main.section{
+    position: relative;
+}
+
+.main-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.id-partecipant{
+    background-color: azure;
+    width:calc(100% / 5 - 80px);
+    height: calc(100vh / 4 );
+    border: 1px solid #fed3ce;
+    margin: 1px;
+}
+
+.arrow{
+    display: inline-block;
+    text-align: center;
+}
+
+.arrow.text-left{
+position: absolute;
+    left: 30px;
+    top: 50%;
+    color: rgb(2, 78, 88);
+}
+
+.arrow.text-right{
+    position: absolute;
+     right: 30px;
+    top: 50%;
+    color: rgb(2, 78, 88);
+    }
+
+
+/*footer*/
+
+.footer{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-nav div{
+    display: inline-block;
+    color: rgb(2, 78, 88);
+}
